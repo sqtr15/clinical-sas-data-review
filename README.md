@@ -33,7 +33,7 @@ Biostat/
 
 ## SAS Scripts Overview
 
-### 01_data_qc.sas – Data Quality and Review
+### data_qc.sas – Data Quality and Review
 This script performs initial inspection and quality control of clinical-style tabular data, including:
 - Import of structured datasets  
 - Inspection of variable structure and types  
@@ -42,7 +42,7 @@ This script performs initial inspection and quality control of clinical-style ta
 
 ---
 
-### 02_exploratory_analysis.sas – Exploratory Analysis
+### exploratory_analysis.sas – Exploratory Analysis
 This script supports data interpretation through exploratory summaries:
 - Descriptive statistics by treatment group and visit  
 - Simple trend exploration for biomarker variables  
@@ -50,7 +50,7 @@ This script supports data interpretation through exploratory summaries:
 
 ---
 
-### 03_listings_tables.sas – Listings and Summary Outputs
+### listings_tables.sas – Listings and Summary Outputs
 This script generates outputs suitable for clinical data review:
 - Subject-level listings of key variables  
 - Summary tables for internal review and discussion  
